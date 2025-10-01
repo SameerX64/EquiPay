@@ -1,6 +1,6 @@
 # EquiPay - Employee Payroll Management System
 
-EquiPay is a full-stack payroll and HR management solution tailored for Indian businesses.
+EquiPay is a full-stack payroll and HR management solution tailored for businesses.
 It provides a dark-themed UI, AI-powered HR assistant, and comprehensive payroll automation with enterprise-grade security.
 
 ## 🌟 Features

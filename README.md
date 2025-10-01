@@ -1,27 +1,29 @@
 # EquiPay - Employee Payroll Management System
 
-## 🌟 Features
+EquiPay is a full-stack payroll and HR management solution tailored for Indian businesses.
+It provides a dark-themed UI, AI-powered HR assistant, and comprehensive payroll automation with enterprise-grade security.
 
-### Core Payroll Management
+## 🌟 Features
+### - Core Payroll Management
 - **Employee Management**: Complete employee lifecycle management with detailed profiles
 - **Salary Management**: Flexible salary structures with multiple compensation components
 - **Payslip Generation**: Automated PDF payslip generation with detailed breakdowns
 - **Tax Calculations**: Automated tax deductions and compliance reporting
 - **Department Management**: Organize employees by departments with hierarchical structure
 
-### Advanced Features
+### - Advanced Features
 - **Attendance Management**: Track employee attendance with integration support
 - **Leave Management**: Comprehensive leave tracking and approval workflow
 - **Compliance Reporting**: Generate compliance reports for audit and regulatory requirements
 - **Analytics Dashboard**: Real-time insights and analytics on payroll data
 - **Document Management**: Secure storage and management of payroll-related documents
 
-### AI-Powered Assistant
+### - AI-Powered Assistant
 - **AI Assistant**: Integrated Google Gemini AI for intelligent payroll queries and assistance
 - **Smart Insights**: AI-driven recommendations for payroll optimization
 - **Natural Language Processing**: Query payroll data using natural language
 
-### Security & Authentication
+### - Security & Authentication
 - **JWT Authentication**: Secure token-based authentication system
 - **Role-Based Access Control**: Multiple user roles with granular permissions
 - **Data Encryption**: Secure handling of sensitive payroll information
@@ -29,7 +31,7 @@
 
 ## 🏗️ Architecture
 
-### Backend (Spring Boot)
+### - Backend (Spring Boot)
 - **Framework**: Spring Boot 3.3.4 with Java 22
 - **Database**: MySQL 8.0 with HikariCP connection pooling
 - **Security**: Spring Security with JWT authentication
@@ -37,7 +39,7 @@
 - **PDF Generation**: iText PDF library for payslip generation
 - **AI Integration**: Google Gemini AI for intelligent assistance
 
-### Frontend (React)
+### - Frontend (React)
 - **Framework**: React 18.2.0 with modern hooks
 - **Routing**: React Router DOM for navigation
 - **UI Components**: React Bootstrap with custom styling
@@ -48,12 +50,11 @@
 
 ### User Profile & System Architecture
 <div align="center">
-  <img src="images-screenshots/flowchart.png" alt="System Architecture" width="400"/>
+  <img src="images-screenshots/flowchart.png" alt="System Architecture" width="5000"/>
 </div>
-
-### Application in Action
+<hr>
 <div align="center">
-  <img src="images-screenshots/working.png" alt="Application Working" width="600"/>
+  <img src="images-screenshots/working.png" alt="Application Working" width="5000"/>
 </div>
 
 ## 🚀 Quick Start
@@ -135,32 +136,37 @@ npm start
 
 ### Authentication & Dashboard
 <div align="center">
-  <img src="images-screenshots/login.png" alt="Login Page" width="400"/>
-  <img src="images-screenshots/admin-dashboard.png" alt="Admin Dashboard" width="400"/>
+  <img src="images-screenshots/login.png" alt="Login Page" width="5000"/>
+  <br><hr>
+  <img src="images-screenshots/admin-dashboard.png" alt="Admin Dashboard" width="5000"/>
 </div>
 
 ### Employee & Department Management
 <div align="center">
-  <img src="images-screenshots/employee_management.png" alt="Employee Management" width="400"/>
-  <img src="images-screenshots/departments.png" alt="Department Management" width="400"/>
+  <img src="images-screenshots/employee_management.png" alt="Employee Management" width="5000"/>
+  <br><hr>
+  <img src="images-screenshots/departments.png" alt="Department Management" width="5000"/>
 </div>
 
 ### Payroll & Salary Management
 <div align="center">
-  <img src="images-screenshots/salary_management.png" alt="Salary Management" width="400"/>
-  <img src="images-screenshots/payslips.png" alt="Payslip Generation" width="400"/>
+  <img src="images-screenshots/salary_management.png" alt="Salary Management" width="5000"/>
+  <br><hr>
+  <img src="images-screenshots/payslips.png" alt="Payslip Generation" width="5000"/>
 </div>
 
 ### Attendance & Leave Management
 <div align="center">
-  <img src="images-screenshots/attendence_management.png" alt="Attendance Management" width="400"/>
-  <img src="images-screenshots/leave_management.png" alt="Leave Management" width="400"/>
+  <img src="images-screenshots/attendence_management.png" alt="Attendance Management" width="5000"/>
+  <br><hr>
+  <img src="images-screenshots/leave_management.png" alt="Leave Management" width="5000"/>
 </div>
 
 ### Compliance & Settings
 <div align="center">
-  <img src="images-screenshots/compliance_reporting.png" alt="Compliance Reporting" width="400"/>
-  <img src="images-screenshots/settings.png" alt="System Settings" width="400"/>
+  <img src="images-screenshots/compliance_reporting.png" alt="Compliance Reporting" width="5000"/>
+  <br><hr>
+  <img src="images-screenshots/settings.png" alt="System Settings" width="5000"/>
   
 </div>
 

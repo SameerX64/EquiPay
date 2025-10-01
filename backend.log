@@ -1,0 +1,1595 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mcom.payroll:equipay[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding EquiPay 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:3.3.4:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mequipay[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36mequipay[0;1m ---[m
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 0 resource from src/main/resources to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:compile[m [1m(default-compile)[m @ [36mequipay[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36mequipay[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.13.0:testCompile[m [1m(default-testCompile)[m @ [36mequipay[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:3.3.4:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mequipay[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:3.3.4:run[m [1m(default-cli)[m @ [36mequipay[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2025-10-01 17:46:35 - Starting EmployeePayrollSystemApplication using Java 22.0.2 with PID 169730 (/home/sameer/Desktop/resume_projects/spring_boot/Employement-Payroll-System/backend/target/classes started by sameer in /home/sameer/Desktop/resume_projects/spring_boot/Employement-Payroll-System/backend)
+2025-10-01 17:46:35 - Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-10-01 17:46:35 - No active profile set, falling back to 1 default profile: "default"
+2025-10-01 17:46:36 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-01 17:46:37 - Finished Spring Data repository scanning in 206 ms. Found 3 JPA repository interfaces.
+2025-10-01 17:46:38 - Tomcat initialized with port 8080 (http)
+2025-10-01 17:46:38 - Starting service [Tomcat]
+2025-10-01 17:46:38 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-10-01 17:46:38 - Initializing Spring embedded WebApplicationContext
+2025-10-01 17:46:38 - Root WebApplicationContext: initialization completed in 3235 ms
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+2025-10-01 17:46:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-01 17:46:39 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-10-01 17:46:39 - HHH000026: Second-level cache disabled
+2025-10-01 17:46:40 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-01 17:46:40 - HikariPool-1 - Starting...
+2025-10-01 17:46:40 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e933cf1
+2025-10-01 17:46:40 - HikariPool-1 - Start completed.
+2025-10-01 17:46:40 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-01 17:46:41 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-01 17:46:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01 17:46:42 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-01 17:46:43 - Filter 'authenticationJwtTokenFilter' configured for use
+2025-10-01 17:46:44 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-01 17:46:44 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-10-01 17:46:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-01 17:46:44 - Exposing 1 endpoint beneath base path '/actuator'
+2025-10-01 17:46:44 - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, AuthTokenFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-10-01 17:46:45 - Tomcat started on port 8080 (http) with context path '/api'
+2025-10-01 17:46:45 - Started EmployeePayrollSystemApplication in 11.04 seconds (process running for 11.724)
+Hibernate: 
+    select
+        count(*) 
+    from
+        employees e1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        departments d1_0
+Hibernate: 
+    select
+        e1_0.employee_id 
+    from
+        employees e1_0 
+    where
+        e1_0.email=? 
+    limit
+        ?
+Hibernate: 
+    select
+        e1_0.employee_id 
+    from
+        employees e1_0 
+    where
+        e1_0.email=? 
+    limit
+        ?
+Hibernate: 
+    select
+        count(*) 
+    from
+        employees e1_0
+🚀 EquiPay is running!
+📚 API Documentation: http://localhost:8080/api/swagger-ui.html
+2025-10-01 17:46:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-01 17:46:53 - Initializing Servlet 'dispatcherServlet'
+2025-10-01 17:46:53 - Completed initialization in 4 ms
+2025-10-01 17:46:53 - Securing GET /admin/employees
+2025-10-01 17:46:53 - Securing GET /admin/departments
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:46:53 - Secured GET /admin/departments
+2025-10-01 17:46:53 - Secured GET /admin/employees
+2025-10-01 17:46:53 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllDepartments(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:46:53 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:46:53 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:46:53 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllDepartments(); target is of class [com.payroll.controller.AdminController]
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.is_active=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    order by
+        d1_0.dept_name
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:46:53 - Securing GET /admin/departments
+2025-10-01 17:46:53 - Securing GET /admin/employees
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:46:53 - Secured GET /admin/departments
+2025-10-01 17:46:53 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllDepartments(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:46:53 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllDepartments(); target is of class [com.payroll.controller.AdminController]
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    order by
+        d1_0.dept_name
+2025-10-01 17:46:53 - Secured GET /admin/employees
+2025-10-01 17:46:53 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:46:53 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.is_active=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:02 - Securing GET /admin/employees
+2025-10-01 17:47:02 - Securing GET /admin/departments
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+2025-10-01 17:47:02 - Secured GET /admin/employees
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:02 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:47:02 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:47:02 - Secured GET /admin/departments
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.is_active=?
+2025-10-01 17:47:02 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllDepartments(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:47:02 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllDepartments(); target is of class [com.payroll.controller.AdminController]
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    order by
+        d1_0.dept_name
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:03 - Securing GET /admin/departments
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:03 - Secured GET /admin/departments
+2025-10-01 17:47:03 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllDepartments(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:47:03 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllDepartments(); target is of class [com.payroll.controller.AdminController]
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    order by
+        d1_0.dept_name
+2025-10-01 17:47:03 - Securing GET /admin/employees
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:03 - Secured GET /admin/employees
+2025-10-01 17:47:03 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:47:03 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.is_active=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:19 - Securing OPTIONS /attendance/date/2025-10-01
+2025-10-01 17:47:19 - Securing OPTIONS /attendance/date/2025-10-01
+2025-10-01 17:47:19 - Securing GET /attendance/date/2025-10-01
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:19 - Secured GET /attendance/date/2025-10-01
+2025-10-01 17:47:19 - Securing GET /attendance/date/2025-10-01
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:19 - Secured GET /attendance/date/2025-10-01
+2025-10-01 17:47:31 - Securing OPTIONS /leave/balance/employee/1/year/2025
+2025-10-01 17:47:31 - Securing OPTIONS /leave/applications
+2025-10-01 17:47:31 - Securing OPTIONS /leave/balance/employee/1/year/2025
+2025-10-01 17:47:31 - Securing OPTIONS /leave/applications
+2025-10-01 17:47:31 - Securing GET /leave/applications
+2025-10-01 17:47:31 - Securing GET /leave/balance/employee/1/year/2025
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:31 - Secured GET /leave/applications
+2025-10-01 17:47:31 - Secured GET /leave/balance/employee/1/year/2025
+2025-10-01 17:47:31 - Securing GET /leave/applications
+2025-10-01 17:47:31 - Securing GET /leave/balance/employee/1/year/2025
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:31 - Secured GET /leave/applications
+2025-10-01 17:47:31 - Secured GET /leave/balance/employee/1/year/2025
+2025-10-01 17:47:53 - Securing OPTIONS /leave/applications
+2025-10-01 17:47:53 - Securing OPTIONS /leave/balance/employee/1/year/2025
+2025-10-01 17:47:53 - Securing OPTIONS /leave/applications
+2025-10-01 17:47:53 - Securing OPTIONS /leave/balance/employee/1/year/2025
+2025-10-01 17:47:53 - Securing GET /leave/balance/employee/1/year/2025
+2025-10-01 17:47:53 - Securing GET /leave/applications
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:53 - Secured GET /leave/balance/employee/1/year/2025
+2025-10-01 17:47:53 - Secured GET /leave/applications
+2025-10-01 17:47:53 - Securing GET /leave/applications
+2025-10-01 17:47:53 - Securing GET /leave/balance/employee/1/year/2025
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:47:53 - Secured GET /leave/balance/employee/1/year/2025
+2025-10-01 17:47:53 - Secured GET /leave/applications
+2025-10-01 17:48:04 - Securing GET /admin/employees
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:48:04 - Secured GET /admin/employees
+2025-10-01 17:48:04 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:48:04 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.is_active=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:48:05 - Securing GET /admin/employees
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:48:05 - Secured GET /admin/employees
+2025-10-01 17:48:05 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+2025-10-01 17:48:05 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.payroll.controller.AdminController.getAllEmployees(); target is of class [com.payroll.controller.AdminController]
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.is_active=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:48:20 - Securing OPTIONS /analytics/overview
+2025-10-01 17:48:20 - Securing OPTIONS /analytics/department
+2025-10-01 17:48:20 - Securing OPTIONS /analytics/monthly/2025
+2025-10-01 17:48:20 - Securing OPTIONS /analytics/salary-distribution
+2025-10-01 17:48:20 - Securing OPTIONS /analytics/monthly/2025
+2025-10-01 17:48:20 - Securing OPTIONS /analytics/overview
+2025-10-01 17:48:20 - Securing OPTIONS /analytics/department
+2025-10-01 17:48:20 - Securing GET /analytics/monthly/2025
+2025-10-01 17:48:20 - Securing GET /analytics/department
+2025-10-01 17:48:20 - Securing GET /analytics/salary-distribution
+2025-10-01 17:48:20 - Securing GET /analytics/overview
+2025-10-01 17:48:20 - Securing OPTIONS /analytics/salary-distribution
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:48:20 - Secured GET /analytics/monthly/2025
+2025-10-01 17:48:20 - Secured GET /analytics/overview
+2025-10-01 17:48:20 - Secured GET /analytics/department
+2025-10-01 17:48:20 - Securing GET /analytics/overview
+2025-10-01 17:48:20 - Securing GET /analytics/monthly/2025
+2025-10-01 17:48:20 - Secured GET /analytics/salary-distribution
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:48:20 - Securing GET /analytics/salary-distribution
+2025-10-01 17:48:20 - Securing GET /analytics/department
+2025-10-01 17:48:20 - Secured GET /analytics/monthly/2025
+2025-10-01 17:48:20 - Secured GET /analytics/overview
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        e1_0.employee_id,
+        e1_0.address,
+        e1_0.created_at,
+        e1_0.date_of_birth,
+        e1_0.department_id,
+        e1_0.email,
+        e1_0.employee_code,
+        e1_0.first_name,
+        e1_0.hire_date,
+        e1_0.is_active,
+        e1_0.last_name,
+        e1_0.password,
+        e1_0.phone_number,
+        e1_0.role,
+        e1_0.updated_at 
+    from
+        employees e1_0 
+    where
+        e1_0.email=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+Hibernate: 
+    select
+        d1_0.dept_id,
+        d1_0.created_at,
+        d1_0.dept_name,
+        d1_0.description,
+        d1_0.updated_at 
+    from
+        departments d1_0 
+    where
+        d1_0.dept_id=?
+2025-10-01 17:48:20 - Secured GET /analytics/salary-distribution
+2025-10-01 17:48:20 - Secured GET /analytics/department
